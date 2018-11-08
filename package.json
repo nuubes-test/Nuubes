@@ -1,0 +1,11 @@
+{
+  "author": "Nuubes",
+  "name": "agentService",
+  "module": "Nuubes Agent Service",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node --expose_gc app.js",
+    "test": "mocha --no-timeouts"
+  }
+}
